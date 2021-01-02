@@ -1,0 +1,12 @@
+.contain{
+border: black solid 2px;
+    height: 50vh;
+    width: 30vw;
+display: inline-block;
+}
+
+button{
+    width: 150px;
+    height: 130px;
+    background-color: aqua;
+}

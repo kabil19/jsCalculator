@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    /*background-color: black;*/
+    /*background-color: #ffffff;*/
+    height: auto;
+    overflow-wrap: break-word;
+}
+
+body {
+    background: no-repeat linear-gradient(to bottom, rgba(65, 99, 108, 0.78) 0%, #21181c 100%);
+    /*background-repeat: no-repeat;*/
+    display: flex;
+    flex-direction: column;
+
+}
+
+.basic-butt {
+    display: grid;
+    grid-template-columns: 8vw 8vw 8vw 8vw;
+    /*grid-template-rows: auto auto auto auto ;*/
+    grid-column-gap: 20px;
+    grid-row-gap: 1px;
+    border: black solid 1px;
+    width: 38vw;
+    height: auto;
+    /*margin-top: 5%;*/
+    background: linear-gradient(to bottom, rgba(65, 99, 108, 0.78) 0%, #21181c 100%);
+}
+
+.main{
+    margin-left: 28%;
+}
+
+.name {
+    grid-column: 5/4;
+}
+
+.exit{
+    grid-area: 5/2;
+}
+
+.itemdivi {
+    grid-area: 5/3;
+}
+
+.display-1,.display-2{
+    /*background-color: aqua;*/
+    border:black 1px solid ;
+}
+.display-1{
+    height: 5vh;
+    font-size: 0.8rem;
+    /*position: fixed;*/
+}
+.display-2{
+
+    height: 15vh;
+
+}
+
+
+.btequal {
+    /*grid-row-end: 5;
+    grid-row-start: 3;*/
+    grid-area: 3/4/ span 2/auto;
+}
+
+.item1 {
+    grid-area: 4;
+}
+
+.item2 {
+    grid-area: 4;
+}
+
+.item3 {
+    grid-area: 4;
+}
+
+.item4 {
+    grid-area: 3/3; /*row Start// column start */
+}
+
+.item5 {
+    grid-area: 3/2;
+}
+
+.item6 {
+    grid-area: 3/1;
+}
+
+.item7 {
+    grid-area: 2/3;
+}
+
+.item8 {
+    grid-area: 2/2;
+}
+
+.item9 {
+    grid-area: 2/1;
+}
+
+.buttons {
+    /*display: inline-block;*/
+    /*border: black 2px solid;*/
+    color: lightyellow;
+    text-align: center;
+    margin: 13px;
+    padding-top: 8px;
+    border: none;
+    width: 8vw;
+    height: 10vh;
+    background-color: grey;
+    border-radius: 15px;
+}
+
+.buttons:hover {
+    background: linear-gradient(to bottom, rgba(65, 99, 108, 0.78) 0%, #21181c 100%);
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    border: black solid 1px;
+    width: 38vw;
+    height: 20vh;
+    margin-bottom: 1px;
+}

@@ -147,8 +147,8 @@ $(document).ready(function () {
             } else if (uniButtPur == "/") {
                 division();
             } else if (uniButtPur == "=") {
-                alert("The Button is under working process:)))")
-                $('.btequal').attr("disable", false)
+                alert("The Button is under work-process:)))")
+                // $('.btequal').attr(value,null)
             }
         } else {
             if (uniButtPur == "C") {
